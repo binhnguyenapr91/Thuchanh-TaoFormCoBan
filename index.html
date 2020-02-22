@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .myform {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<fieldset style="width: 500px;">
+
+    <legend><h3>Order Form</h3></legend>
+
+    <form method="get" action="[Thuchanh]_TaoFormCoBan-OrderForm.html" class="myform">
+
+        <label>What would you like to buy?</label><br>
+        <select>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+        </select>
+        <br>
+
+        <label>How many would you like to order?</label><br>
+        <label><input type="radio" name="quantity" value="1">1-$10</label><br>
+        <label><input type="radio" name="quantity" value="2">2-$20</label><br>
+        <label><input type="radio" name="quantity" value="3">3-$25</label><br>
+
+        <label>Name</label><br>
+        <input type="text" name="txt_firstname" placeholder="FirstName"><input type="text" name="txt_lastname" placeholder="LastName"><br>
+        <label>Email</label><br>
+        <input type="text" name="txt_email" placeholder="Email" size="30"><br>
+        <label>Phone Number</label><br>
+        <input type="text" name="txt_phone" size="5">-<input type="text" name="txt_phone" size="5">-<input type="text" name="txt_phone" size="5"><br>
+        <input type="button" value="Submit" name="btn_submit">
+    </form>
+</fieldset>
+
+</body>
+</html>
